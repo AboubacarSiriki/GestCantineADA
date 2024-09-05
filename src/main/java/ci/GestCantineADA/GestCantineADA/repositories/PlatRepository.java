@@ -1,7 +1,7 @@
 package ci.GestCantineADA.GestCantineADA.repositories;
 
-import ci.GestCantineADA.GestCantineADA.models.Menu;
+import ci.GestCantineADA.GestCantineADA.models.Plat;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MenuRepository extends JpaRepository<Menu, Long> {
+public interface PlatRepository extends JpaRepository<Plat, Long> {
 }

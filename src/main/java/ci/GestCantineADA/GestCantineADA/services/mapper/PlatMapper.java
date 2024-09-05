@@ -1,4 +1,9 @@
 package ci.GestCantineADA.GestCantineADA.services.mapper;
 
-public interface PlatMapper {
+import ci.GestCantineADA.GestCantineADA.models.Plat;
+import ci.GestCantineADA.GestCantineADA.services.dto.PlatDTO;
+import org.mapstruct.Mapper;
+
+@Mapper(componentModel = "spring")
+public interface PlatMapper extends EntityMapper<PlatDTO, Plat>{
 }
